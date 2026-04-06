@@ -1,0 +1,77 @@
+{
+  "thresholds": {
+    "code_churn_rate": {
+      "tau_cc": 25.0,
+      "unit": "%",
+      "description": "Code churn rate threshold",
+      "direction": "g"
+    },
+    "burstiness": {
+      "tau_bst": 0.9,
+      "unit": "ratio",
+      "description": "Burstiness threshold",
+      "direction": "g"
+    },
+    "commit_frequency": {
+      "tau_cf": 0.0,
+      "unit": "commits/week",
+      "description": "Commit frequency threshold",
+      "direction": "l"
+    },
+    "test_proportion": {
+      "tau_tp": 1,
+      "unit": "%",
+      "description": "Test proportion threshold",
+      "direction": "l"
+    },
+    "test_evolve": {
+      "tau_ter": 0.1,
+      "unit": "%",
+      "description": "Retirement risk threshold",
+      "direction": "l"
+    },
+    "core_developer_turnover": {
+      "tau_cdt": 80.0,
+      "unit": "%",
+      "description": "Core developer turnover threshold",
+      "direction": "g"
+    },
+    "truck_factor": {
+      "tau_tf": 1,
+      "unit": "count",
+      "description": "Truck factor threshold",
+      "direction": "l",
+      "single_signal":0
+    },
+    "newcomer_retention": {
+      "tau_nr": 0,
+      "unit": "%",
+      "description": "Newcomer retention threshold",
+      "direction": "l"
+    },
+    "issue_response_efficiency": {
+      "tau_ire": 180.0,
+      "unit": "days",
+      "description": "Issue response efficiency threshold",
+      "direction": "g"
+    },
+    "backlog_management_index": {
+      "tau_bmi": 10.0,
+      "unit": "%",
+      "description": "Backlog management index threshold",
+      "direction": "l"
+    },
+    "cve_exposure_rate": {
+      "tau_cer": 0.0,
+      "unit": "count/year",
+      "description": "CVE exposure presure threshold",
+      "direction": "g"
+    },
+    "cve_severity": {
+      "tau_cs": 7.0,
+      "unit": "score",
+      "description": "CVE severity threshold (CVSS score)",
+      "direction": "g"
+    }
+  }
+}
